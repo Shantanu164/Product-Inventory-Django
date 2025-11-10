@@ -4,4 +4,7 @@ from django.shortcuts import render
 from django.shortcuts import HttpResponse
 
 def home(request):
-    return HttpResponse("Product Inventory Management System.")
+    return HttpResponse("Product Inventory Management System.Home Page.")
+
+def index(request):
+    return HttpResponse("Product Inventory Management System.Index Page.")
